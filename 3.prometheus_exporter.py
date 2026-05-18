@@ -16,7 +16,7 @@ logging.basicConfig(
 
 MODEL_URL = "http://localhost:5000/invocations"
 EXPORTER_PORT = 8001
-DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "MLProject_Folder", "data", "test_cleaned.csv")
+DATA_PATH = os.path.join(os.path.dirname(__file__), "data", "test_cleaned.csv")
 
 # Definisi 10 Metrik Prometheus
 SYSTEM_CPU_USAGE = Gauge('system_cpu_usage_percent', 'Penggunaan CPU sistem dalam persen')
